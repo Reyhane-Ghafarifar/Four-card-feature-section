@@ -1,0 +1,97 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  *, *::after, *::before {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+  }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    color: hsl(229, 6%, 66%);
+    margin: 1%;
+    background-color: hsl(0, 0%, 98%);
+  }
+
+  h1{
+    color: hsl(234, 12%, 34%);
+    font-size: 30px;
+  }
+  
+  p, .content {
+    font-weight: 200;
+  }
+
+  .first {
+    font-size: 30px;
+    
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content {
+    padding: 3%;
+    display: grid;
+gap: 3vh 3vw;
+grid-template-rows: 25fr 25fr 25fr 25fr;
+grid-template-columns: 30fr 30fr 30fr;
+grid-template-areas: 
+". two ."
+"one two four"
+"one three four"
+". three ."
+  }
+
+.content div {
+    text-align: left;
+    border-radius: 4px;
+    box-shadow: 5px 2px 20px #b9b9b9;
+    padding: 5% 5% 0%;
+}
+
+b {
+    color: hsl(234, 12%, 34%);
+}
+
+  .one {
+    border-top:solid hsl(180, 62%, 55%) 4px;
+    grid-area: one;
+    
+}
+
+.two {
+    border-top:solid hsl(0, 78%, 62%) 4px;
+    grid-area: two;
+    
+}
+
+.three {
+    border-top:solid hsl(34, 97%, 64%) 4px;
+    grid-area: three;
+    
+}
+
+.four {
+    border-top:solid hsl(212, 86%, 64%) 4px;
+    grid-area: four;
+    
+}
+
+.icon {
+    margin: 8%;
+    display: flex;
+    justify-content: flex-end;
+}
