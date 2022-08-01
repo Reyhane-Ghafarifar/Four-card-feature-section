@@ -111,7 +111,7 @@ b {
   .content div {
     width: 100%;
   }
-.first, h1 {
+h1 {
   font-size: 4vh;
 }
 
