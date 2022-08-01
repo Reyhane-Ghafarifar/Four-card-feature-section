@@ -95,3 +95,16 @@ b {
     display: flex;
     justify-content: flex-end;
 }
+
+@media screen and (max-width: 800px){
+
+  .content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .content div {
+    width: 100%;
+  }
+  }
