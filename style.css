@@ -112,16 +112,14 @@ b {
     width: 100%;
   }
 
-.first {
-  font-size: 4vh;
+.first, h1 {
+  font-size: 7vw;
 }
 
 h1 {
-    font-size: 4vh;
   margin-bottom: 1%;
 }
 
-    
 .content {
   margin-top: 7%;
 }
