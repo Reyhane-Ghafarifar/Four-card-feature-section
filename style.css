@@ -62,11 +62,11 @@ grid-template-areas:
     text-align: left;
     border-radius: 4px;
     box-shadow: 5px 2px 20px #b9b9b9;
-    padding: 5% 5% 0%;
+    padding: 8% 5% 0%;
 }
 
 b {
-    font-size: medium;
+    font-size: large;
     color: hsl(234, 12%, 34%);
 }
 
