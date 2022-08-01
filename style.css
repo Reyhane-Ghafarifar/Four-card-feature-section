@@ -48,7 +48,7 @@
     display: grid;
 gap: 3vh 3vw;
 grid-template-rows: 25fr 25fr 25fr 25fr;
-grid-template-columns: 30fr 30fr 30fr;
+grid-template-columns: 25fr 25fr 25fr;
 grid-template-areas: 
 ". two ."
 "one two four"
