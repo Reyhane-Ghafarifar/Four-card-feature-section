@@ -115,7 +115,7 @@ h1 {
   font-size: 4vh;
 }
 
-h1 {
+.first, h1 {
   margin-bottom: 1%;
 }
 
