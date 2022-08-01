@@ -44,7 +44,7 @@
   }
 
   .content {
-    padding: 3%;
+    padding: 7%;
     display: grid;
 gap: 3vh 3vw;
 grid-template-rows: 25fr 25fr 25fr 25fr;
