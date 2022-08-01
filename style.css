@@ -111,12 +111,13 @@ b {
   .content div {
     width: 100%;
   }
+    
 h1 {
-  font-size: 4vh;
+  margin-bottom: 1%;
 }
 
 .first, h1 {
-  margin-bottom: 1%;
+  font-size: 4vh;
 }
 
 .content {
