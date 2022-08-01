@@ -114,10 +114,7 @@ b {
     
 h1 {
   margin-bottom: 1%;
-}
-
-.first, h1 {
-  font-size: 4vh;
+    font-size: 4vh;
 }
 
 .content {
